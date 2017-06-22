@@ -30,10 +30,7 @@
     "asar": {
       "smartUnpack": false
     },
-    "asarUnpack": [
-      "**/*.dll",
-      "**/*.node"
-    ],
+    "asarUnpack": [],
     "mac": {
       "icon": "assets/icon.icns",
       "artifactName": "${productName}-${version}-darwin-${env.TARGET_ARCH}.${ext}",
